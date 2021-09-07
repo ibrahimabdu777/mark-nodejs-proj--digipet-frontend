@@ -13,10 +13,7 @@ interface Props {
 }
 
 function DigipetActions({ actions }: Props) {
-  const defaultHandler = () =>
-    window.alert(
-      "Handler not implemented yet (so using this generic default one)!"
-    );
+  
 
   return (
     <>
